@@ -20,7 +20,7 @@ TEAMS = {
         "output": Path("heerenveen.ics"),
     },
     "cambuur": {
-        "names": ["SC Cambuur"],
+        "names": ["SC Cambuur-Leeuwarden"],
         "calendar_name": "Abe Agenda – SC Cambuur",
         "output": Path("cambuur.ics"),
     },
@@ -29,7 +29,7 @@ TEAMS = {
 
 STADIUMS = {
     "SC Heerenveen": "Abe Lenstra Stadion, Heerenveen",
-    "SC Cambuur": "Kooi Stadion, Leeuwarden",
+    "SC Cambuur-Leeuwarden": "Kooi Stadion, Leeuwarden",
 }
 
 
@@ -147,7 +147,7 @@ def create_calendar(matches: list[dict], team_key: str) -> None:
         "METHOD:PUBLISH",
         f"X-WR-CALNAME:{team['calendar_name']}",
         "X-WR-TIMEZONE:Europe/Amsterdam",
-        f"X-WR-CALDESC:Automatisch bijgewerkte kalender van {team['names'][0]}.",
+        f"X-WR-CALDESC:Automatisch bijgewerkte kalender van {team['calendar_name'].replace('Abe Agenda – ', '')}.",
     ]
 
     for match in selected_matches:
@@ -170,18 +170,6 @@ def main() -> None:
     matches = fetch_matches()
 
     print(f"Totaal aantal Eredivisie-wedstrijden: {len(matches)}")
-
-    teams = sorted({
-        match["homeTeam"]["name"]
-        for match in matches
-    } | {
-        match["awayTeam"]["name"]
-        for match in matches
-    })
-
-    print("Teams in football-data.org:")
-    for team in teams:
-        print(f"- {team}")
 
     for team_key in TEAMS:
         create_calendar(matches, team_key)
