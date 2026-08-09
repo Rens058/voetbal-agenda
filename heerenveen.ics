@@ -8,308 +8,308 @@ X-WR-TIMEZONE:Europe/Amsterdam
 X-WR-CALDESC:Automatisch bijgewerkte kalender van SC Heerenveen.
 BEGIN:VEVENT
 UID:football-data-558222@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20260809T164500
 DTEND;TZID=Europe/Amsterdam:20260809T184500
 SUMMARY:⚽ SC Heerenveen – FC Twente '65
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 1\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 1\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558231@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20260816T164500
 DTEND;TZID=Europe/Amsterdam:20260816T184500
 SUMMARY:⚽ AFC Ajax – SC Heerenveen
 LOCATION:AFC Ajax
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 2\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 2\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558235@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20260822T210000
 DTEND;TZID=Europe/Amsterdam:20260822T230000
 SUMMARY:⚽ SC Heerenveen – PEC Zwolle
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 3\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 3\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558246@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20260830T143000
 DTEND;TZID=Europe/Amsterdam:20260830T163000
 SUMMARY:⚽ Willem II Tilburg – SC Heerenveen
 LOCATION:Willem II Tilburg
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 4\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 4\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558256@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20260906T143000
 DTEND;TZID=Europe/Amsterdam:20260906T163000
 SUMMARY:⚽ SC Heerenveen – AZ
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 5\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 5\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558895@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20260912T210000
 DTEND;TZID=Europe/Amsterdam:20260912T230000
 SUMMARY:⚽ SC Heerenveen – Telstar 1963
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 6\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 6\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558890@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20260919T184500
 DTEND;TZID=Europe/Amsterdam:20260919T204500
 SUMMARY:⚽ Sparta Rotterdam – SC Heerenveen
 LOCATION:Sparta Rotterdam
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 7\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 7\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558881@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20261010T163000
 DTEND;TZID=Europe/Amsterdam:20261010T183000
 SUMMARY:⚽ PSV – SC Heerenveen
 LOCATION:PSV
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 8\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 8\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558872@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20261016T200000
 DTEND;TZID=Europe/Amsterdam:20261016T220000
 SUMMARY:⚽ SC Heerenveen – SBV Excelsior
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 9\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 9\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558860@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20261024T210000
 DTEND;TZID=Europe/Amsterdam:20261024T230000
 SUMMARY:⚽ ADO Den Haag – SC Heerenveen
 LOCATION:ADO Den Haag
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 10\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 10\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558852@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20261031T184500
 DTEND;TZID=Europe/Amsterdam:20261031T204500
 SUMMARY:⚽ SC Heerenveen – NEC
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 11\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 11\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558840@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20261108T121500
 DTEND;TZID=Europe/Amsterdam:20261108T141500
 SUMMARY:⚽ SC Heerenveen – Feyenoord Rotterdam
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 12\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 12\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558834@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20261121T010000
-DTEND;TZID=Europe/Amsterdam:20261121T030000
-SUMMARY:⚽ FC Groningen – SC Heerenveen
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:⚽ FC Groningen – SC Heerenveen (tijd nog niet bekend)
 LOCATION:FC Groningen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 13\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 13\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558821@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20261128T010000
-DTEND;TZID=Europe/Amsterdam:20261128T030000
-SUMMARY:⚽ Fortuna Sittard – SC Heerenveen
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:⚽ Fortuna Sittard – SC Heerenveen (tijd nog niet bekend)
 LOCATION:Fortuna Sittard
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 14\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 14\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558815@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20261205T010000
-DTEND;TZID=Europe/Amsterdam:20261205T030000
-SUMMARY:⚽ SC Heerenveen – SC Cambuur-Leeuwarden
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:⚽ SC Heerenveen – SC Cambuur-Leeuwarden (tijd nog niet bekend)
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 15\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 15\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558809@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20261212T010000
-DTEND;TZID=Europe/Amsterdam:20261212T030000
-SUMMARY:⚽ SC Heerenveen – Go Ahead Eagles
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:⚽ SC Heerenveen – Go Ahead Eagles (tijd nog niet bekend)
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 16\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 16\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558799@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20261219T010000
-DTEND;TZID=Europe/Amsterdam:20261219T030000
-SUMMARY:⚽ FC Utrecht – SC Heerenveen
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:⚽ FC Utrecht – SC Heerenveen (tijd nog niet bekend)
 LOCATION:FC Utrecht
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 17\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 17\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558788@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20270109T210000
 DTEND;TZID=Europe/Amsterdam:20270109T230000
 SUMMARY:⚽ AZ – SC Heerenveen
 LOCATION:AZ
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 18\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 18\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558778@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270116T010000
-DTEND;TZID=Europe/Amsterdam:20270116T030000
-SUMMARY:⚽ SC Heerenveen – Sparta Rotterdam
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:⚽ SC Heerenveen – Sparta Rotterdam (tijd nog niet bekend)
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 19\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 19\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558766@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270123T010000
-DTEND;TZID=Europe/Amsterdam:20270123T030000
-SUMMARY:⚽ FC Twente '65 – SC Heerenveen
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:⚽ FC Twente '65 – SC Heerenveen (tijd nog niet bekend)
 LOCATION:FC Twente '65
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 20\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 20\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558757@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270130T010000
-DTEND;TZID=Europe/Amsterdam:20270130T030000
-SUMMARY:⚽ SC Heerenveen – AFC Ajax
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:⚽ SC Heerenveen – AFC Ajax (tijd nog niet bekend)
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 21\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 21\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558747@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270213T010000
-DTEND;TZID=Europe/Amsterdam:20270213T030000
-SUMMARY:⚽ Telstar 1963 – SC Heerenveen
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:⚽ Telstar 1963 – SC Heerenveen (tijd nog niet bekend)
 LOCATION:Telstar 1963
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 22\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 22\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558742@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270220T010000
-DTEND;TZID=Europe/Amsterdam:20270220T030000
-SUMMARY:⚽ SC Heerenveen – Willem II Tilburg
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:⚽ SC Heerenveen – Willem II Tilburg (tijd nog niet bekend)
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 23\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 23\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558732@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270227T010000
-DTEND;TZID=Europe/Amsterdam:20270227T030000
-SUMMARY:⚽ SBV Excelsior – SC Heerenveen
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:⚽ SBV Excelsior – SC Heerenveen (tijd nog niet bekend)
 LOCATION:SBV Excelsior
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 24\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 24\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558721@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270306T010000
-DTEND;TZID=Europe/Amsterdam:20270306T030000
-SUMMARY:⚽ Feyenoord Rotterdam – SC Heerenveen
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:⚽ Feyenoord Rotterdam – SC Heerenveen (tijd nog niet bekend)
 LOCATION:Feyenoord Rotterdam
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 25\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 25\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558719@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270313T010000
-DTEND;TZID=Europe/Amsterdam:20270313T030000
-SUMMARY:⚽ SC Heerenveen – Fortuna Sittard
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:⚽ SC Heerenveen – Fortuna Sittard (tijd nog niet bekend)
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 26\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 26\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558705@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270320T010000
-DTEND;TZID=Europe/Amsterdam:20270320T030000
-SUMMARY:⚽ PEC Zwolle – SC Heerenveen
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:⚽ PEC Zwolle – SC Heerenveen (tijd nog niet bekend)
 LOCATION:PEC Zwolle
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 27\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 27\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558695@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270403T020000
-DTEND;TZID=Europe/Amsterdam:20270403T040000
-SUMMARY:⚽ SC Heerenveen – FC Groningen
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:⚽ SC Heerenveen – FC Groningen (tijd nog niet bekend)
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 28\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 28\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558686@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270410T020000
-DTEND;TZID=Europe/Amsterdam:20270410T040000
-SUMMARY:⚽ NEC – SC Heerenveen
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:⚽ NEC – SC Heerenveen (tijd nog niet bekend)
 LOCATION:NEC
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 29\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 29\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558676@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270424T020000
-DTEND;TZID=Europe/Amsterdam:20270424T040000
-SUMMARY:⚽ SC Heerenveen – ADO Den Haag
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:⚽ SC Heerenveen – ADO Den Haag (tijd nog niet bekend)
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 30\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 30\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558667@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270501T020000
-DTEND;TZID=Europe/Amsterdam:20270501T040000
-SUMMARY:⚽ SC Heerenveen – FC Utrecht
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:⚽ SC Heerenveen – FC Utrecht (tijd nog niet bekend)
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 31\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 31\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558662@abe-agenda
-DTSTAMP:20260809T112644Z
-DTSTART;TZID=Europe/Amsterdam:20270508T020000
-DTEND;TZID=Europe/Amsterdam:20270508T040000
-SUMMARY:⚽ SC Cambuur-Leeuwarden – SC Heerenveen
+DTSTAMP:20260809T113734Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:⚽ SC Cambuur-Leeuwarden – SC Heerenveen (tijd nog niet bekend)
 LOCATION:SC Cambuur-Leeuwarden
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 32\\nStatus: SCHEDULED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 32\nAftraptijd nog niet vastgesteld.
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558649@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20270516T143000
 DTEND;TZID=Europe/Amsterdam:20270516T163000
 SUMMARY:⚽ Go Ahead Eagles – SC Heerenveen
 LOCATION:Go Ahead Eagles
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 33\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 33\nStatus: TIMED
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558640@abe-agenda
-DTSTAMP:20260809T112644Z
+DTSTAMP:20260809T113734Z
 DTSTART;TZID=Europe/Amsterdam:20270523T143000
 DTEND;TZID=Europe/Amsterdam:20270523T163000
 SUMMARY:⚽ SC Heerenveen – PSV
 LOCATION:Abe Lenstra Stadion\, Heerenveen
-DESCRIPTION:SC Heerenveen – Eredivisie\\nBron: Football-Data / KNVB wedstrijdschema.\\nSpeelronde: 34\\nStatus: TIMED
+DESCRIPTION:SC Heerenveen – Eredivisie\nBron: football-data.org\nSpeelronde: 34\nStatus: TIMED
 END:VEVENT
 END:VCALENDAR
