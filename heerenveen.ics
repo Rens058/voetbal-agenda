@@ -7,7 +7,7 @@ X-WR-CALNAME:Abe Agenda - SC Heerenveen
 X-WR-TIMEZONE:Europe/Amsterdam
 BEGIN:VEVENT
 UID:202608091645-sc-heerenveen-fc-twente-65@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20260809T164500
 DTEND;TZID=Europe/Amsterdam:20260809T184500
 SUMMARY:SC Heerenveen - FC Twente '65 (Thuis)
@@ -15,7 +15,7 @@ DESCRIPTION:Abe Agenda - SC Heerenveen kalender. Bron: OpenFootball. Seizoen: 20
 END:VEVENT
 BEGIN:VEVENT
 UID:202608161645-afc-ajax-sc-heerenveen@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20260816T164500
 DTEND;TZID=Europe/Amsterdam:20260816T184500
 SUMMARY:AFC Ajax - SC Heerenveen (Uit)
@@ -23,7 +23,7 @@ DESCRIPTION:Abe Agenda - SC Heerenveen kalender. Bron: OpenFootball. Seizoen: 20
 END:VEVENT
 BEGIN:VEVENT
 UID:202608222100-sc-heerenveen-pec-zwolle@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20260822T210000
 DTEND;TZID=Europe/Amsterdam:20260822T230000
 SUMMARY:SC Heerenveen - PEC Zwolle (Thuis)
@@ -31,7 +31,7 @@ DESCRIPTION:Abe Agenda - SC Heerenveen kalender. Bron: OpenFootball. Seizoen: 20
 END:VEVENT
 BEGIN:VEVENT
 UID:202608301430-willem-ii-tilburg-sc-heerenveen@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20260830T143000
 DTEND;TZID=Europe/Amsterdam:20260830T163000
 SUMMARY:Willem II Tilburg - SC Heerenveen (Uit)
@@ -39,7 +39,7 @@ DESCRIPTION:Abe Agenda - SC Heerenveen kalender. Bron: OpenFootball. Seizoen: 20
 END:VEVENT
 BEGIN:VEVENT
 UID:202609061430-sc-heerenveen-az@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20260906T143000
 DTEND;TZID=Europe/Amsterdam:20260906T163000
 SUMMARY:SC Heerenveen - AZ (Thuis)
@@ -47,7 +47,7 @@ DESCRIPTION:Abe Agenda - SC Heerenveen kalender. Bron: OpenFootball. Seizoen: 20
 END:VEVENT
 BEGIN:VEVENT
 UID:202609122100-sc-heerenveen-telstar@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20260912T210000
 DTEND;TZID=Europe/Amsterdam:20260912T230000
 SUMMARY:SC Heerenveen - Telstar (Thuis)
@@ -55,7 +55,7 @@ DESCRIPTION:Abe Agenda - SC Heerenveen kalender. Bron: OpenFootball. Seizoen: 20
 END:VEVENT
 BEGIN:VEVENT
 UID:202609182000-sparta-rotterdam-sc-heerenveen@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20260918T200000
 DTEND;TZID=Europe/Amsterdam:20260918T220000
 SUMMARY:Sparta Rotterdam - SC Heerenveen (Uit)
@@ -63,7 +63,7 @@ DESCRIPTION:Abe Agenda - SC Heerenveen kalender. Bron: OpenFootball. Seizoen: 20
 END:VEVENT
 BEGIN:VEVENT
 UID:202610101630-psv-sc-heerenveen@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20261010T163000
 DTEND;TZID=Europe/Amsterdam:20261010T183000
 SUMMARY:PSV - SC Heerenveen (Uit)
@@ -71,7 +71,7 @@ DESCRIPTION:Abe Agenda - SC Heerenveen kalender. Bron: OpenFootball. Seizoen: 20
 END:VEVENT
 BEGIN:VEVENT
 UID:202610162000-sc-heerenveen-sbv-excelsior@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20261016T200000
 DTEND;TZID=Europe/Amsterdam:20261016T220000
 SUMMARY:SC Heerenveen - SBV Excelsior (Thuis)
@@ -79,7 +79,7 @@ DESCRIPTION:Abe Agenda - SC Heerenveen kalender. Bron: OpenFootball. Seizoen: 20
 END:VEVENT
 BEGIN:VEVENT
 UID:202610242100-ado-den-haag-sc-heerenveen@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20261024T210000
 DTEND;TZID=Europe/Amsterdam:20261024T230000
 SUMMARY:ADO Den Haag - SC Heerenveen (Uit)
@@ -87,7 +87,7 @@ DESCRIPTION:Abe Agenda - SC Heerenveen kalender. Bron: OpenFootball. Seizoen: 20
 END:VEVENT
 BEGIN:VEVENT
 UID:202610311845-sc-heerenveen-nec@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20261031T184500
 DTEND;TZID=Europe/Amsterdam:20261031T204500
 SUMMARY:SC Heerenveen - NEC (Thuis)
@@ -95,7 +95,7 @@ DESCRIPTION:Abe Agenda - SC Heerenveen kalender. Bron: OpenFootball. Seizoen: 20
 END:VEVENT
 BEGIN:VEVENT
 UID:202611081215-sc-heerenveen-feyenoord-rotterdam@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20261108T121500
 DTEND;TZID=Europe/Amsterdam:20261108T141500
 SUMMARY:SC Heerenveen - Feyenoord Rotterdam (Thuis)
@@ -103,7 +103,7 @@ DESCRIPTION:Abe Agenda - SC Heerenveen kalender. Bron: OpenFootball. Seizoen: 20
 END:VEVENT
 BEGIN:VEVENT
 UID:202702141300-telstar-1963-sc-heerenveen@abe-agenda
-DTSTAMP:20260808T055806Z
+DTSTAMP:20260809T055935Z
 DTSTART;TZID=Europe/Amsterdam:20270214T130000
 DTEND;TZID=Europe/Amsterdam:20270214T150000
 SUMMARY:Telstar 1963 - SC Heerenveen (Uit)
