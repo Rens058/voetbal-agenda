@@ -1,0 +1,119 @@
+name: Test football-data.org API
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-api:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test API and find SC Heerenveen
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+        run: |
+          python3 <<'PY'
+          import os
+          import json
+          import urllib.request
+          import urllib.error
+
+          token = os.environ.get("FOOTBALL_DATA_TOKEN")
+
+          if not token:
+              raise SystemExit(
+                  "ERROR: FOOTBALL_DATA_TOKEN is niet beschikbaar."
+              )
+
+          print("✓ GitHub Secret FOOTBALL_DATA_TOKEN is beschikbaar")
+          print("Token wordt om veiligheidsredenen NIET weergegeven.")
+          print()
+
+          url = "https://api.football-data.org/v4/competitions/DED/matches"
+
+          request = urllib.request.Request(
+              url,
+              headers={"X-Auth-Token": token}
+          )
+
+          try:
+              with urllib.request.urlopen(request) as response:
+                  data = json.load(response)
+          except urllib.error.HTTPError as e:
+              print(f"ERROR: football-data.org gaf HTTP {e.code}")
+              print(e.read().decode())
+              raise SystemExit(1)
+
+          matches = data.get("matches", [])
+
+          print(f"Totaal aantal Eredivisie-wedstrijden ontvangen: {len(matches)}")
+          print()
+
+          heerenveen_matches = []
+
+          for match in matches:
+              home = match["homeTeam"]["name"]
+              away = match["awayTeam"]["name"]
+
+              if "Heerenveen" in home or "Heerenveen" in away:
+                  heerenveen_matches.append(match)
+
+          print(
+              f"Aantal gevonden wedstrijden van SC Heerenveen: "
+              f"{len(heerenveen_matches)}"
+          )
+          print()
+          print("=== SC HEERENVEEN WEDSTRIJDEN ===")
+          print()
+
+          for match in heerenveen_matches:
+              date = match["utcDate"]
+              home = match["homeTeam"]["name"]
+              away = match["awayTeam"]["name"]
+              status = match["status"]
+
+              print(f"{date} | {home} - {away} | {status}")
+
+          print()
+          print("=== SPECIFIEKE CONTROLE ===")
+
+          groningen = [
+              m for m in heerenveen_matches
+              if "Groningen" in m["homeTeam"]["name"]
+              or "Groningen" in m["awayTeam"]["name"]
+          ]
+
+          sparta = [
+              m for m in heerenveen_matches
+              if "Sparta" in m["homeTeam"]["name"]
+              or "Sparta" in m["awayTeam"]["name"]
+          ]
+
+          print(f"Wedstrijden tegen FC Groningen gevonden: {len(groningen)}")
+
+          for m in groningen:
+              print(
+                  "GRONINGEN:",
+                  m["utcDate"],
+                  "|",
+                  m["homeTeam"]["name"],
+                  "-",
+                  m["awayTeam"]["name"]
+              )
+
+          print()
+          print(f"Wedstrijden tegen Sparta gevonden: {len(sparta)}")
+
+          for m in sparta:
+              print(
+                  "SPARTA:",
+                  m["utcDate"],
+                  "|",
+                  m["homeTeam"]["name"],
+                  "-",
+                  m["awayTeam"]["name"]
+              )
+
+          print()
+          print("✓ API-test afgerond")
+          PY
