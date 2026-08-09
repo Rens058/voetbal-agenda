@@ -1,0 +1,9 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Abe Agenda//Voetbalagenda//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Abe Agenda – SC Cambuur
+X-WR-TIMEZONE:Europe/Amsterdam
+X-WR-CALDESC:Automatisch bijgewerkte kalender van SC Cambuur.
+END:VCALENDAR
