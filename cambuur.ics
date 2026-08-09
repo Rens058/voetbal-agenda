@@ -6,4 +6,310 @@ METHOD:PUBLISH
 X-WR-CALNAME:Abe Agenda – SC Cambuur
 X-WR-TIMEZONE:Europe/Amsterdam
 X-WR-CALDESC:Automatisch bijgewerkte kalender van SC Cambuur.
+BEGIN:VEVENT
+UID:football-data-558214@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20260807T200000
+DTEND;TZID=Europe/Amsterdam:20260807T220000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – SBV Excelsior
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 1\\nStatus: FINISHED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558227@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20260815T210000
+DTEND;TZID=Europe/Amsterdam:20260815T230000
+SUMMARY:⚽ Fortuna Sittard – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 2\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558238@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20260823T164500
+DTEND;TZID=Europe/Amsterdam:20260823T184500
+SUMMARY:⚽ SC Cambuur-Leeuwarden – Feyenoord Rotterdam
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 3\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558249@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20260830T200000
+DTEND;TZID=Europe/Amsterdam:20260830T220000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – FC Twente '65
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 4\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558257@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20260906T143000
+DTEND;TZID=Europe/Amsterdam:20260906T163000
+SUMMARY:⚽ Telstar 1963 – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 5\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558892@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20260914T143000
+DTEND;TZID=Europe/Amsterdam:20260914T163000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – NEC
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 6\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558889@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20260919T163000
+DTEND;TZID=Europe/Amsterdam:20260919T183000
+SUMMARY:⚽ ADO Den Haag – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 7\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558874@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20261011T143000
+DTEND;TZID=Europe/Amsterdam:20261011T163000
+SUMMARY:⚽ PEC Zwolle – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 8\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558865@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20261018T143000
+DTEND;TZID=Europe/Amsterdam:20261018T163000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – AZ
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 9\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558861@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20261024T184500
+DTEND;TZID=Europe/Amsterdam:20261024T204500
+SUMMARY:⚽ Willem II Tilburg – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 10\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558850@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20261031T210000
+DTEND;TZID=Europe/Amsterdam:20261031T230000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – Go Ahead Eagles
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 11\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558842@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20261107T200000
+DTEND;TZID=Europe/Amsterdam:20261107T220000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – PSV
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 12\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558835@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20261121T010000
+DTEND;TZID=Europe/Amsterdam:20261121T030000
+SUMMARY:⚽ FC Utrecht – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 13\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558819@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20261128T010000
+DTEND;TZID=Europe/Amsterdam:20261128T030000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – Sparta Rotterdam
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 14\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558815@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20261205T010000
+DTEND;TZID=Europe/Amsterdam:20261205T030000
+SUMMARY:⚽ SC Heerenveen – SC Cambuur-Leeuwarden
+LOCATION:Abe Lenstra Stadion\, Heerenveen
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 15\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558801@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20261212T010000
+DTEND;TZID=Europe/Amsterdam:20261212T030000
+SUMMARY:⚽ AFC Ajax – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 16\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558792@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20261219T010000
+DTEND;TZID=Europe/Amsterdam:20261219T030000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – FC Groningen
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 17\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558785@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270110T121500
+DTEND;TZID=Europe/Amsterdam:20270110T141500
+SUMMARY:⚽ NEC – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 18\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558775@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270116T010000
+DTEND;TZID=Europe/Amsterdam:20270116T030000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – Willem II Tilburg
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 19\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558773@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270123T010000
+DTEND;TZID=Europe/Amsterdam:20270123T030000
+SUMMARY:⚽ Go Ahead Eagles – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 20\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558759@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270130T010000
+DTEND;TZID=Europe/Amsterdam:20270130T030000
+SUMMARY:⚽ FC Twente '65 – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 21\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558750@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270213T010000
+DTEND;TZID=Europe/Amsterdam:20270213T030000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – FC Utrecht
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 22\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558745@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270220T010000
+DTEND;TZID=Europe/Amsterdam:20270220T030000
+SUMMARY:⚽ PSV – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 23\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558731@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270227T010000
+DTEND;TZID=Europe/Amsterdam:20270227T030000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – PEC Zwolle
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 24\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558728@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270306T010000
+DTEND;TZID=Europe/Amsterdam:20270306T030000
+SUMMARY:⚽ Sparta Rotterdam – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 25\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558712@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270313T010000
+DTEND;TZID=Europe/Amsterdam:20270313T030000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – ADO Den Haag
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 26\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558703@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270320T010000
+DTEND;TZID=Europe/Amsterdam:20270320T030000
+SUMMARY:⚽ Feyenoord Rotterdam – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 27\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558697@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270403T020000
+DTEND;TZID=Europe/Amsterdam:20270403T040000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – Telstar 1963
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 28\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558685@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270410T020000
+DTEND;TZID=Europe/Amsterdam:20270410T040000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – Fortuna Sittard
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 29\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558679@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270424T020000
+DTEND;TZID=Europe/Amsterdam:20270424T040000
+SUMMARY:⚽ AZ – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 30\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558672@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270501T020000
+DTEND;TZID=Europe/Amsterdam:20270501T040000
+SUMMARY:⚽ SBV Excelsior – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 31\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558662@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270508T020000
+DTEND;TZID=Europe/Amsterdam:20270508T040000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – SC Heerenveen
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 32\\nStatus: SCHEDULED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558656@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270516T143000
+DTEND;TZID=Europe/Amsterdam:20270516T163000
+SUMMARY:⚽ FC Groningen – SC Cambuur-Leeuwarden
+LOCATION:
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 33\\nStatus: TIMED
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558642@abe-agenda
+DTSTAMP:20260809T204748Z
+DTSTART;TZID=Europe/Amsterdam:20270523T143000
+DTEND;TZID=Europe/Amsterdam:20270523T163000
+SUMMARY:⚽ SC Cambuur-Leeuwarden – AFC Ajax
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:SC Cambuur\\nBron: football-data.org\\nSpeelronde: 34\\nStatus: TIMED
+END:VEVENT
 END:VCALENDAR
