@@ -66,7 +66,7 @@ def make_uid(match: dict) -> str:
     Een stabiele UID is belangrijk.
 
     We gebruiken bewust NIET de datum of tijd in de UID.
-    Als KNVB/football-data.org een wedstrijd verplaatst,
+    Als football-data.org een wedstrijd verplaatst,
     herkent de kalender het daardoor als dezelfde afspraak.
     """
 
@@ -99,14 +99,11 @@ def make_event(match: dict) -> list[str]:
 
     start_local = start_utc.astimezone(TZ)
 
-    # Voorlopig reserveren we 2 uur voor een wedstrijd.
-    end_local = start_local + timedelta(hours=2)
-
     if home.lower() == TEAM_NAME.lower():
-        summary = f"⚽ {TEAM_NAME} – {away}"
+        base_summary = f"⚽ {TEAM_NAME} – {away}"
         location = "Abe Lenstra Stadion, Heerenveen"
     else:
-        summary = f"⚽ {home} – {TEAM_NAME}"
+        base_summary = f"⚽ {home} – {TEAM_NAME}"
         location = home
 
     status = match.get("status", "")
@@ -114,18 +111,45 @@ def make_event(match: dict) -> list[str]:
 
     description_parts = [
         "SC Heerenveen – Eredivisie",
-        "Bron: Football-Data / KNVB wedstrijdschema.",
+        "Bron: football-data.org",
     ]
 
     if matchday:
         description_parts.append(f"Speelronde: {matchday}")
 
-    if status:
-        description_parts.append(f"Status: {status}")
-
-    description = "\\n".join(description_parts)
-
     now_utc = datetime.now(timezone.utc)
+
+    # Nog geen definitieve aftraptijd bekend.
+    if status == "SCHEDULED":
+        event_date = start_local.date()
+        end_date = event_date + timedelta(days=1)
+
+        summary = f"{base_summary} (tijd nog niet bekend)"
+
+        description_parts.append(
+            "Aftraptijd nog niet vastgesteld."
+        )
+
+        description = "\n".join(description_parts)
+
+        return [
+            "BEGIN:VEVENT",
+            f"UID:{escape_ics(make_uid(match))}",
+            f"DTSTAMP:{now_utc.strftime('%Y%m%dT%H%M%SZ')}",
+            f"DTSTART;VALUE=DATE:{event_date.strftime('%Y%m%d')}",
+            f"DTEND;VALUE=DATE:{end_date.strftime('%Y%m%d')}",
+            f"SUMMARY:{escape_ics(summary)}",
+            f"LOCATION:{escape_ics(location)}",
+            f"DESCRIPTION:{escape_ics(description)}",
+            "END:VEVENT",
+        ]
+
+    # Definitieve datum en aftraptijd bekend.
+    end_local = start_local + timedelta(hours=2)
+
+    description_parts.append(f"Status: {status}")
+
+    description = "\n".join(description_parts)
 
     return [
         "BEGIN:VEVENT",
@@ -133,7 +157,7 @@ def make_event(match: dict) -> list[str]:
         f"DTSTAMP:{now_utc.strftime('%Y%m%dT%H%M%SZ')}",
         f"DTSTART;TZID=Europe/Amsterdam:{format_ics_datetime(start_local)}",
         f"DTEND;TZID=Europe/Amsterdam:{format_ics_datetime(end_local)}",
-        f"SUMMARY:{escape_ics(summary)}",
+        f"SUMMARY:{escape_ics(base_summary)}",
         f"LOCATION:{escape_ics(location)}",
         f"DESCRIPTION:{escape_ics(description)}",
         "END:VEVENT",
@@ -171,8 +195,12 @@ def generate_calendar(matches: list[dict]) -> str:
         home = match["homeTeam"]["name"]
         away = match["awayTeam"]["name"]
         utc_date = match.get("utcDate")
+        status = match.get("status", "")
 
-        print(f"  {utc_date} | {home} - {away}")
+        print(
+            f"  {utc_date} | {status} | "
+            f"{home} - {away}"
+        )
 
         lines.extend(make_event(match))
 
