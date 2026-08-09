@@ -164,6 +164,13 @@ def create_calendar(matches: list[dict], team_key: str) -> None:
         f"{team['output']} aangemaakt met "
         f"{len(selected_matches)} wedstrijden."
     )
+
+
+def main() -> None:
+    matches = fetch_matches()
+
+    print(f"Totaal aantal Eredivisie-wedstrijden: {len(matches)}")
+
     teams = sorted({
         match["homeTeam"]["name"]
         for match in matches
@@ -175,11 +182,6 @@ def create_calendar(matches: list[dict], team_key: str) -> None:
     print("Teams in football-data.org:")
     for team in teams:
         print(f"- {team}")
-
-def main() -> None:
-    matches = fetch_matches()
-
-    print(f"Totaal aantal Eredivisie-wedstrijden: {len(matches)}")
 
     for team_key in TEAMS:
         create_calendar(matches, team_key)
