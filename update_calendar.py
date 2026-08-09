@@ -1,140 +1,160 @@
 from __future__ import annotations
 
-import json
 import os
-import re
-import sys
 import urllib.request
-from dataclasses import dataclass
+import json
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 
+API_URL = "https://api.football-data.org/v4/competitions/DED/matches"
 OUTPUT = Path("heerenveen.ics")
 TZ = ZoneInfo("Europe/Amsterdam")
 
-API_URL = "https://api.football-data.org/v4/competitions/DED/matches"
-API_TOKEN = os.environ.get("FOOTBALL_DATA_TOKEN")
-
-TEAM_KEYWORDS = ["heerenveen", "sc heerenveen"]
+TEAM_NAME = "SC Heerenveen"
 
 
-@dataclass
-class Match:
-    start: datetime
-    home: str
-    away: str
+def fetch_matches() -> list[dict]:
+    token = os.environ.get("FOOTBALL_DATA_TOKEN")
 
-    @property
-    def is_home(self) -> bool:
-        return "heerenveen" in self.home.lower()
-
-    @property
-    def title(self) -> str:
-        label = "Thuis" if self.is_home else "Uit"
-        return f"{self.home} - {self.away} ({label})"
-
-
-def fetch_matches() -> dict | None:
-    if not API_TOKEN:
-        print("FOUT: FOOTBALL_DATA_TOKEN ontbreekt.")
-        return None
+    if not token:
+        raise RuntimeError(
+            "FOOTBALL_DATA_TOKEN ontbreekt. "
+            "Voeg deze toe als GitHub Actions secret."
+        )
 
     request = urllib.request.Request(
         API_URL,
         headers={
-            "X-Auth-Token": API_TOKEN,
-            "User-Agent": "Abe-Agenda/1.0",
+            "X-Auth-Token": token,
+            "User-Agent": "Abe-Agenda/0.1",
         },
     )
 
-    try:
-        with urllib.request.urlopen(request, timeout=30) as response:
-            if response.status != 200:
-                print(f"API gaf HTTP-status {response.status}.")
-                return None
+    with urllib.request.urlopen(request, timeout=30) as response:
+        data = json.load(response)
 
-            return json.loads(response.read().decode("utf-8"))
-
-    except Exception as exc:
-        print(f"Football-Data API niet beschikbaar: {exc}")
-        return None
+    return data.get("matches", [])
 
 
-def is_heerenveen(home: str, away: str) -> bool:
-    combined = f"{home} {away}".lower()
+def is_heerenveen_match(match: dict) -> bool:
+    home = match.get("homeTeam", {}).get("name", "")
+    away = match.get("awayTeam", {}).get("name", "")
 
-    return any(keyword in combined for keyword in TEAM_KEYWORDS)
-
-
-def parse_matches(data: dict) -> list[Match]:
-    matches: list[Match] = []
-
-    for item in data.get("matches", []):
-        home = item.get("homeTeam", {}).get("name", "").strip()
-        away = item.get("awayTeam", {}).get("name", "").strip()
-        utc_date = item.get("utcDate")
-
-        if not home or not away or not utc_date:
-            continue
-
-        if not is_heerenveen(home, away):
-            continue
-
-        try:
-            start_utc = datetime.fromisoformat(
-                utc_date.replace("Z", "+00:00")
-            )
-
-            start_local = start_utc.astimezone(TZ)
-
-        except ValueError:
-            print(
-                f"Ongeldige datum overgeslagen: "
-                f"{home} - {away}: {utc_date}"
-            )
-            continue
-
-        matches.append(
-            Match(
-                start=start_local,
-                home=home,
-                away=away,
-            )
-        )
-
-    return sorted(matches, key=lambda match: match.start)
+    return TEAM_NAME.lower() in {
+        home.lower(),
+        away.lower(),
+    }
 
 
-def escape_ics(text: str) -> str:
+def escape_ics(value: str) -> str:
     return (
-        text.replace("\\", "\\\\")
-        .replace(",", "\\,")
+        value.replace("\\", "\\\\")
         .replace(";", "\\;")
+        .replace(",", "\\,")
         .replace("\n", "\\n")
     )
 
 
-def ics_time(dt: datetime) -> str:
+def format_ics_datetime(dt: datetime) -> str:
     return dt.strftime("%Y%m%dT%H%M%S")
 
 
-def make_uid(match: Match) -> str:
+def make_uid(match: dict) -> str:
     """
-    UID bewust NIET gebaseerd op datum/tijd.
+    Een stabiele UID is belangrijk.
 
-    Hierdoor blijft dezelfde wedstrijd dezelfde agenda-afspraak
-    wanneer KNVB/Football-Data later datum of aftraptijd wijzigt.
+    We gebruiken bewust NIET de datum of tijd in de UID.
+    Als KNVB/football-data.org een wedstrijd verplaatst,
+    herkent de kalender het daardoor als dezelfde afspraak.
     """
-    uid_base = f"{match.home}-{match.away}".lower()
-    uid_base = re.sub(r"[^a-z0-9]+", "-", uid_base).strip("-")
 
-    return f"{uid_base}@abe-agenda"
+    match_id = match.get("id")
+
+    if match_id:
+        return f"football-data-{match_id}@abe-agenda"
+
+    home = match.get("homeTeam", {}).get("name", "home")
+    away = match.get("awayTeam", {}).get("name", "away")
+
+    return (
+        f"{home.lower().replace(' ', '-')}-"
+        f"{away.lower().replace(' ', '-')}@abe-agenda"
+    )
 
 
-def make_ics(matches: list[Match]) -> str:
-    now = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+def make_event(match: dict) -> list[str]:
+    home = match["homeTeam"]["name"]
+    away = match["awayTeam"]["name"]
+
+    utc_date = match.get("utcDate")
+
+    if not utc_date:
+        raise ValueError(f"Wedstrijd zonder utcDate: {home} - {away}")
+
+    start_utc = datetime.fromisoformat(
+        utc_date.replace("Z", "+00:00")
+    )
+
+    start_local = start_utc.astimezone(TZ)
+
+    # Voorlopig reserveren we 2 uur voor een wedstrijd.
+    end_local = start_local + timedelta(hours=2)
+
+    if home.lower() == TEAM_NAME.lower():
+        summary = f"⚽ {TEAM_NAME} – {away}"
+        location = "Abe Lenstra Stadion, Heerenveen"
+    else:
+        summary = f"⚽ {home} – {TEAM_NAME}"
+        location = home
+
+    status = match.get("status", "")
+    matchday = match.get("matchday")
+
+    description_parts = [
+        "SC Heerenveen – Eredivisie",
+        "Bron: Football-Data / KNVB wedstrijdschema.",
+    ]
+
+    if matchday:
+        description_parts.append(f"Speelronde: {matchday}")
+
+    if status:
+        description_parts.append(f"Status: {status}")
+
+    description = "\\n".join(description_parts)
+
+    now_utc = datetime.now(timezone.utc)
+
+    return [
+        "BEGIN:VEVENT",
+        f"UID:{escape_ics(make_uid(match))}",
+        f"DTSTAMP:{now_utc.strftime('%Y%m%dT%H%M%SZ')}",
+        f"DTSTART;TZID=Europe/Amsterdam:{format_ics_datetime(start_local)}",
+        f"DTEND;TZID=Europe/Amsterdam:{format_ics_datetime(end_local)}",
+        f"SUMMARY:{escape_ics(summary)}",
+        f"LOCATION:{escape_ics(location)}",
+        f"DESCRIPTION:{escape_ics(description)}",
+        "END:VEVENT",
+    ]
+
+
+def generate_calendar(matches: list[dict]) -> str:
+    heerenveen_matches = [
+        match
+        for match in matches
+        if is_heerenveen_match(match)
+    ]
+
+    heerenveen_matches.sort(
+        key=lambda match: match.get("utcDate", "")
+    )
+
+    print(
+        f"Gevonden: {len(heerenveen_matches)} "
+        f"wedstrijden van {TEAM_NAME}"
+    )
 
     lines = [
         "BEGIN:VCALENDAR",
@@ -142,77 +162,46 @@ def make_ics(matches: list[Match]) -> str:
         "PRODID:-//Abe Agenda//SC Heerenveen//NL",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
-        "X-WR-CALNAME:Abe Agenda - SC Heerenveen",
+        "X-WR-CALNAME:Abe Agenda – SC Heerenveen",
         "X-WR-TIMEZONE:Europe/Amsterdam",
+        "X-WR-CALDESC:Automatisch bijgewerkte kalender van SC Heerenveen.",
     ]
 
-    for match in matches:
-        end = match.start + timedelta(hours=2)
+    for match in heerenveen_matches:
+        home = match["homeTeam"]["name"]
+        away = match["awayTeam"]["name"]
+        utc_date = match.get("utcDate")
 
-        lines.extend(
-            [
-                "BEGIN:VEVENT",
-                f"UID:{make_uid(match)}",
-                f"DTSTAMP:{now}",
-                f"DTSTART;TZID=Europe/Amsterdam:{ics_time(match.start)}",
-                f"DTEND;TZID=Europe/Amsterdam:{ics_time(end)}",
-                f"SUMMARY:{escape_ics(match.title)}",
-                (
-                    "DESCRIPTION:"
-                    + escape_ics(
-                        "Abe Agenda - SC Heerenveen kalender. "
-                        "Bron: Football-Data / KNVB wedstrijdschema."
-                    )
-                ),
-                "END:VEVENT",
-            ]
-        )
+        print(f"  {utc_date} | {home} - {away}")
+
+        lines.extend(make_event(match))
 
     lines.append("END:VCALENDAR")
 
     return "\r\n".join(lines) + "\r\n"
 
 
-def main() -> int:
-    print("Wedstrijden ophalen uit Football-Data API...")
-    print(f"Endpoint: {API_URL}")
+def main() -> None:
+    print("Abe Agenda – SC Heerenveen")
+    print("Wedstrijden ophalen via football-data.org...")
 
-    data = fetch_matches()
+    matches = fetch_matches()
 
-    if data is None:
-        print(
-            "Geen bruikbare API-data ontvangen. "
-            "Bestaande heerenveen.ics blijft behouden."
-        )
-        return 1
+    print(
+        f"API levert {len(matches)} "
+        "Eredivisiewedstrijden."
+    )
 
-    matches = parse_matches(data)
-
-    if not matches:
-        print(
-            "Geen SC Heerenveen-wedstrijden gevonden. "
-            "Bestaande heerenveen.ics blijft behouden."
-        )
-        return 1
+    calendar = generate_calendar(matches)
 
     OUTPUT.write_text(
-        make_ics(matches),
+        calendar,
         encoding="utf-8",
         newline="",
     )
 
-    print()
-    print(f"{OUTPUT} bijgewerkt met {len(matches)} wedstrijden.")
-    print()
-
-    for match in matches:
-        print(
-            f"{match.start:%d-%m-%Y %H:%M} | "
-            f"{match.home} - {match.away}"
-        )
-
-    return 0
+    print(f"Kalender geschreven naar {OUTPUT}")
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    main()
