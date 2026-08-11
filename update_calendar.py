@@ -43,6 +43,18 @@ TIMED_STATUSES = {
 }
 
 
+# Vertaling van technische API-statussen naar duidelijke voetbaltaal.
+STATUS_TEXT = {
+    "SCHEDULED": "Tijdstip nog niet bekend",
+    "TIMED": "Tijdstip vastgesteld",
+    "IN_PLAY": "Wedstrijd bezig",
+    "PAUSED": "Rust",
+    "FINISHED": "Gespeeld",
+    "POSTPONED": "Uitgesteld",
+    "CANCELLED": "Afgelast",
+}
+
+
 def escape_ics(text: str) -> str:
     return (
         text.replace("\\", "\\\\")
@@ -102,18 +114,8 @@ def make_event(match: dict, team_key: str) -> list[str]:
     match_id = match["id"]
     matchday = match.get("matchday", "")
     status = match.get("status", "")
-STATUS_TEXT = {
-    "SCHEDULED": "Tijdstip nog niet bekend",
-    "TIMED": "Tijdstip vastgesteld",
-    "IN_PLAY": "Wedstrijd bezig",
-    "PAUSED": "Rust",
-    "FINISHED": "Gespeeld",
-    "POSTPONED": "Uitgesteld",
-    "CANCELLED": "Afgelast",
-}
+    status_text = STATUS_TEXT.get(status, status)
 
-status_text = STATUS_TEXT.get(status, status)
-    
     location = STADIUMS.get(home, "")
     summary = f"⚽ {home} – {away}"
 
@@ -128,25 +130,17 @@ status_text = STATUS_TEXT.get(status, status)
     if status:
         description_parts.append(f"Status: {status_text}")
 
-    # Hier gebruiken we echte nieuwe regels.
-    # escape_ics zet die daarna correct om voor het ICS-bestand.
     description = "\n".join(description_parts)
 
     now = datetime.now(tz=UTC)
 
     lines = [
         "BEGIN:VEVENT",
-
-        # UID bewust hetzelfde gehouden als in de oude kalender.
-        # Daardoor worden bestaande afspraken bijgewerkt
-        # in plaats van dubbel toegevoegd.
         f"UID:football-data-{match_id}@abe-agenda",
-
         f"DTSTAMP:{now.strftime('%Y%m%dT%H%M%SZ')}",
     ]
 
     if status in TIMED_STATUSES:
-        # Tijdstip is definitief bekend.
         end = start + timedelta(hours=2)
 
         lines.extend(
@@ -157,8 +151,6 @@ status_text = STATUS_TEXT.get(status, status)
         )
 
     else:
-        # Tijdstip is nog niet definitief bekend.
-        # Wedstrijd wordt daarom als hele-dag-afspraak weergegeven.
         match_date = start.date()
         next_date = match_date + timedelta(days=1)
 
