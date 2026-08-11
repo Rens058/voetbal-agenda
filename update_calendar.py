@@ -1,8 +1,8 @@
 from __future__ import annotations
 
+import json
 import os
 import urllib.request
-import json
 from datetime import datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -11,17 +11,18 @@ from zoneinfo import ZoneInfo
 API_URL = "https://api.football-data.org/v4/competitions/DED/matches"
 
 TZ = ZoneInfo("Europe/Amsterdam")
+UTC = ZoneInfo("UTC")
 
 
 TEAMS = {
     "heerenveen": {
         "names": ["SC Heerenveen"],
-        "calendar_name": "Abe Agenda – SC Heerenveen",
+        "calendar_name": "Voetbalagenda – SC Heerenveen",
         "output": Path("heerenveen.ics"),
     },
     "cambuur": {
         "names": ["SC Cambuur-Leeuwarden"],
-        "calendar_name": "Abe Agenda – SC Cambuur",
+        "calendar_name": "Voetbalagenda – SC Cambuur",
         "output": Path("cambuur.ics"),
     },
 }
@@ -30,6 +31,15 @@ TEAMS = {
 STADIUMS = {
     "SC Heerenveen": "Abe Lenstra Stadion, Heerenveen",
     "SC Cambuur-Leeuwarden": "Kooi Stadion, Leeuwarden",
+}
+
+
+# Bij deze statussen is het aanvangstijdstip daadwerkelijk bekend.
+TIMED_STATUSES = {
+    "TIMED",
+    "IN_PLAY",
+    "PAUSED",
+    "FINISHED",
 }
 
 
@@ -55,7 +65,7 @@ def fetch_matches() -> list[dict]:
         API_URL,
         headers={
             "X-Auth-Token": token,
-            "User-Agent": "Abe-Agenda/1.0",
+            "User-Agent": "Voetbalagenda/1.0",
         },
     )
 
@@ -88,18 +98,16 @@ def make_event(match: dict, team_key: str) -> list[str]:
     )
 
     start = start_utc.astimezone(TZ)
-    end = start + timedelta(hours=2)
 
     match_id = match["id"]
     matchday = match.get("matchday", "")
     status = match.get("status", "")
 
     location = STADIUMS.get(home, "")
-
     summary = f"⚽ {home} – {away}"
 
     description_parts = [
-        team["calendar_name"].replace("Abe Agenda – ", ""),
+        team["calendar_name"].replace("Voetbalagenda – ", ""),
         "Bron: football-data.org",
     ]
 
@@ -109,21 +117,57 @@ def make_event(match: dict, team_key: str) -> list[str]:
     if status:
         description_parts.append(f"Status: {status}")
 
-    description = "\\n".join(description_parts)
+    # Hier gebruiken we echte nieuwe regels.
+    # escape_ics zet die daarna correct om voor het ICS-bestand.
+    description = "\n".join(description_parts)
 
-    now = datetime.now(tz=ZoneInfo("UTC"))
+    now = datetime.now(tz=UTC)
 
-    return [
+    lines = [
         "BEGIN:VEVENT",
+
+        # UID bewust hetzelfde gehouden als in de oude kalender.
+        # Daardoor worden bestaande afspraken bijgewerkt
+        # in plaats van dubbel toegevoegd.
         f"UID:football-data-{match_id}@abe-agenda",
+
         f"DTSTAMP:{now.strftime('%Y%m%dT%H%M%SZ')}",
-        f"DTSTART;TZID=Europe/Amsterdam:{start.strftime('%Y%m%dT%H%M%S')}",
-        f"DTEND;TZID=Europe/Amsterdam:{end.strftime('%Y%m%dT%H%M%S')}",
-        f"SUMMARY:{escape_ics(summary)}",
-        f"LOCATION:{escape_ics(location)}",
-        f"DESCRIPTION:{escape_ics(description)}",
-        "END:VEVENT",
     ]
+
+    if status in TIMED_STATUSES:
+        # Tijdstip is definitief bekend.
+        end = start + timedelta(hours=2)
+
+        lines.extend(
+            [
+                f"DTSTART;TZID=Europe/Amsterdam:{start.strftime('%Y%m%dT%H%M%S')}",
+                f"DTEND;TZID=Europe/Amsterdam:{end.strftime('%Y%m%dT%H%M%S')}",
+            ]
+        )
+
+    else:
+        # Tijdstip is nog niet definitief bekend.
+        # Wedstrijd wordt daarom als hele-dag-afspraak weergegeven.
+        match_date = start.date()
+        next_date = match_date + timedelta(days=1)
+
+        lines.extend(
+            [
+                f"DTSTART;VALUE=DATE:{match_date.strftime('%Y%m%d')}",
+                f"DTEND;VALUE=DATE:{next_date.strftime('%Y%m%d')}",
+            ]
+        )
+
+    lines.extend(
+        [
+            f"SUMMARY:{escape_ics(summary)}",
+            f"LOCATION:{escape_ics(location)}",
+            f"DESCRIPTION:{escape_ics(description)}",
+            "END:VEVENT",
+        ]
+    )
+
+    return lines
 
 
 def create_calendar(matches: list[dict], team_key: str) -> None:
@@ -142,12 +186,13 @@ def create_calendar(matches: list[dict], team_key: str) -> None:
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//Abe Agenda//Voetbalagenda//NL",
+        "PRODID:-//Voetbalagenda//Wedstrijdkalender//NL",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         f"X-WR-CALNAME:{team['calendar_name']}",
         "X-WR-TIMEZONE:Europe/Amsterdam",
-        f"X-WR-CALDESC:Automatisch bijgewerkte kalender van {team['calendar_name'].replace('Abe Agenda – ', '')}.",
+        f"X-WR-CALDESC:Automatisch bijgewerkte kalender van "
+        f"{team['calendar_name'].replace('Voetbalagenda – ', '')}.",
     ]
 
     for match in selected_matches:
