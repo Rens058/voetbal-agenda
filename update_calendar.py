@@ -102,7 +102,18 @@ def make_event(match: dict, team_key: str) -> list[str]:
     match_id = match["id"]
     matchday = match.get("matchday", "")
     status = match.get("status", "")
+STATUS_TEXT = {
+    "SCHEDULED": "Tijdstip nog niet bekend",
+    "TIMED": "Tijdstip vastgesteld",
+    "IN_PLAY": "Wedstrijd bezig",
+    "PAUSED": "Rust",
+    "FINISHED": "Gespeeld",
+    "POSTPONED": "Uitgesteld",
+    "CANCELLED": "Afgelast",
+}
 
+status_text = STATUS_TEXT.get(status, status)
+    
     location = STADIUMS.get(home, "")
     summary = f"⚽ {home} – {away}"
 
@@ -115,7 +126,7 @@ def make_event(match: dict, team_key: str) -> list[str]:
         description_parts.append(f"Speelronde: {matchday}")
 
     if status:
-        description_parts.append(f"Status: {status}")
+        description_parts.append(f"Status: {status_text}")
 
     # Hier gebruiken we echte nieuwe regels.
     # escape_ics zet die daarna correct om voor het ICS-bestand.
