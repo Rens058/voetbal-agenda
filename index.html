@@ -21,12 +21,12 @@
     .page {
       max-width: 620px;
       margin: 0 auto;
-      padding: 48px 20px 40px;
+      padding: 42px 18px 40px;
     }
 
     .header {
       text-align: center;
-      margin-bottom: 36px;
+      margin-bottom: 34px;
     }
 
     .header h1 {
@@ -42,48 +42,74 @@
       color: #666;
     }
 
-    .club-card {
-      background: white;
-      border-radius: 20px;
-      padding: 26px 22px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.06);
+    .section-title {
+      margin: 0 0 16px;
+      font-size: 22px;
       text-align: center;
     }
 
-    .club-card h2 {
-      margin: 0 0 10px;
-      font-size: 25px;
+    .clubs {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
     }
 
-    .club-card p {
-      margin: 0 0 22px;
-      color: #666;
-      line-height: 1.5;
+    .club {
+      background: white;
+      border-radius: 16px;
+      padding: 17px 18px;
+      box-shadow: 0 3px 14px rgba(0, 0, 0, 0.05);
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .club-name {
+      font-size: 18px;
+      font-weight: 650;
+      line-height: 1.25;
     }
 
     .button {
-      display: block;
-      width: 100%;
-      padding: 16px 18px;
-      border-radius: 14px;
+      flex-shrink: 0;
+      display: inline-block;
+      padding: 11px 14px;
+      border-radius: 11px;
       background: #007aff;
       color: white;
-      font-size: 18px;
+      font-size: 15px;
       font-weight: 600;
       text-decoration: none;
+      white-space: nowrap;
     }
 
     .button:active {
-      transform: scale(0.98);
+      transform: scale(0.97);
     }
 
     .footer {
-      margin-top: 34px;
+      margin-top: 32px;
       text-align: center;
       color: #777;
       font-size: 14px;
-      line-height: 1.5;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 390px) {
+      .club {
+        padding: 15px;
+      }
+
+      .club-name {
+        font-size: 17px;
+      }
+
+      .button {
+        font-size: 14px;
+        padding: 10px 12px;
+      }
     }
   </style>
 </head>
@@ -100,33 +126,155 @@
       </p>
     </header>
 
-    <section class="club-card">
-      <h2>SC Heerenveen</h2>
-      <p>
-        Alle wedstrijden automatisch bijgewerkt.
-      </p>
+    <h2 class="section-title">Kies je club</h2>
 
-      <a
-        class="button"
-        href="webcal://mijnvoetbalagenda.nl/heerenveen.ics"
-      >
-        📅 Voeg toe aan agenda
-      </a>
-    </section>
+    <div class="clubs">
 
-    <section class="club-card">
-      <h2>SC Cambuur</h2>
-      <p>
-        Alle wedstrijden automatisch bijgewerkt.
-      </p>
+      <div class="club">
+        <div class="club-name">ADO Den Haag</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/ado-den-haag.ics">
+          📅 Toevoegen
+        </a>
+      </div>
 
-      <a
-        class="button"
-        href="webcal://mijnvoetbalagenda.nl/cambuur.ics"
-      >
-        📅 Voeg toe aan agenda
-      </a>
-    </section>
+      <div class="club">
+        <div class="club-name">Ajax</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/afc-ajax.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">AZ</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/az.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">SC Cambuur</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/cambuur.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">FC Groningen</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/fc-groningen.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">FC Twente</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/fc-twente-65.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">FC Utrecht</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/fc-utrecht.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">Feyenoord</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/feyenoord-rotterdam.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">Fortuna Sittard</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/fortuna-sittard.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">Go Ahead Eagles</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/go-ahead-eagles.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">SC Heerenveen</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/heerenveen.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">NEC</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/nec.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">PEC Zwolle</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/pec-zwolle.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">PSV</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/psv.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">Excelsior</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/sbv-excelsior.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">Sparta Rotterdam</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/sparta-rotterdam.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">Telstar</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/telstar-1963.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+      <div class="club">
+        <div class="club-name">Willem II</div>
+        <a class="button"
+           href="webcal://mijnvoetbalagenda.nl/willem-ii-tilburg.ics">
+          📅 Toevoegen
+        </a>
+      </div>
+
+    </div>
 
     <footer class="footer">
       Wedstrijdtijden kunnen wijzigen.<br>
