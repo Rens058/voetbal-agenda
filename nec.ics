@@ -1,0 +1,315 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Voetbalagenda//Wedstrijdkalender//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Voetbalagenda – NEC
+X-WR-TIMEZONE:Europe/Amsterdam
+X-WR-CALDESC:Automatisch bijgewerkte kalender van NEC.
+BEGIN:VEVENT
+UID:football-data-558215@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20260808T163000
+DTEND;TZID=Europe/Amsterdam:20260808T183000
+SUMMARY:⚽ NEC – Telstar 1963
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 1\nStatus: Gespeeld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558224@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20260815T163000
+DTEND;TZID=Europe/Amsterdam:20260815T183000
+SUMMARY:⚽ Willem II Tilburg – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 2\nStatus: Gespeeld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558233@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:⚽ NEC – SBV Excelsior
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 3\nStatus: Uitgesteld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558244@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20260829T210000
+DTEND;TZID=Europe/Amsterdam:20260829T230000
+SUMMARY:⚽ PEC Zwolle – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 4\nStatus: Tijdstip vastgesteld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558251@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20260905T163000
+DTEND;TZID=Europe/Amsterdam:20260905T183000
+SUMMARY:⚽ NEC – Feyenoord Rotterdam
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 5\nStatus: Tijdstip vastgesteld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558892@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20260914T143000
+DTEND;TZID=Europe/Amsterdam:20260914T163000
+SUMMARY:⚽ SC Cambuur – NEC
+LOCATION:Kooi Stadion\, Leeuwarden
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 6\nStatus: Tijdstip vastgesteld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558883@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20260920T143000
+DTEND;TZID=Europe/Amsterdam:20260920T163000
+SUMMARY:⚽ NEC – Go Ahead Eagles
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 7\nStatus: Tijdstip vastgesteld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558878@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20261010T210000
+DTEND;TZID=Europe/Amsterdam:20261010T230000
+SUMMARY:⚽ AFC Ajax – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 8\nStatus: Tijdstip vastgesteld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558870@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20261017T184500
+DTEND;TZID=Europe/Amsterdam:20261017T204500
+SUMMARY:⚽ NEC – Fortuna Sittard
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 9\nStatus: Tijdstip vastgesteld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558857@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20261025T143000
+DTEND;TZID=Europe/Amsterdam:20261025T163000
+SUMMARY:⚽ NEC – FC Groningen
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 10\nStatus: Tijdstip vastgesteld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558852@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20261031T184500
+DTEND;TZID=Europe/Amsterdam:20261031T204500
+SUMMARY:⚽ SC Heerenveen – NEC
+LOCATION:Abe Lenstra Stadion\, Heerenveen
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 11\nStatus: Tijdstip vastgesteld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558838@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20261108T143000
+DTEND;TZID=Europe/Amsterdam:20261108T163000
+SUMMARY:⚽ FC Utrecht – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 12\nStatus: Tijdstip vastgesteld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558833@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:⚽ NEC – PSV
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 13\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558822@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:⚽ NEC – FC Twente '65
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 14\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558817@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:⚽ Sparta Rotterdam – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 15\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558807@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:⚽ AZ – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 16\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558798@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:⚽ NEC – ADO Den Haag
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 17\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558785@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20270110T121500
+DTEND;TZID=Europe/Amsterdam:20270110T141500
+SUMMARY:⚽ NEC – SC Cambuur
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 18\nStatus: Tijdstip vastgesteld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558776@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:⚽ Telstar 1963 – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 19\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558765@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:⚽ NEC – Willem II Tilburg
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 20\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558764@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:⚽ FC Groningen – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 21\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558749@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:⚽ Feyenoord Rotterdam – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 22\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558738@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:⚽ NEC – Sparta Rotterdam
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 23\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558730@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:⚽ NEC – AZ
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 24\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558727@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:⚽ Fortuna Sittard – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 25\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558713@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:⚽ SBV Excelsior – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 26\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558707@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:⚽ NEC – AFC Ajax
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 27\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558700@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:⚽ Go Ahead Eagles – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 28\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558686@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:⚽ NEC – SC Heerenveen
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 29\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558675@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:⚽ FC Twente '65 – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 30\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558670@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:⚽ NEC – PEC Zwolle
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 31\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558664@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:⚽ ADO Den Haag – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 32\nStatus: Tijdstip nog niet bekend
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558653@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20270516T143000
+DTEND;TZID=Europe/Amsterdam:20270516T163000
+SUMMARY:⚽ PSV – NEC
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 33\nStatus: Tijdstip vastgesteld
+END:VEVENT
+BEGIN:VEVENT
+UID:football-data-558639@abe-agenda
+DTSTAMP:20260815T190641Z
+DTSTART;TZID=Europe/Amsterdam:20270523T143000
+DTEND;TZID=Europe/Amsterdam:20270523T163000
+SUMMARY:⚽ NEC – FC Utrecht
+LOCATION:
+DESCRIPTION:NEC\nBron: football-data.org\nSpeelronde: 34\nStatus: Tijdstip vastgesteld
+END:VEVENT
+END:VCALENDAR
