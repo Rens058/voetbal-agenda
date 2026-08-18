@@ -8,7 +8,7 @@ X-WR-TIMEZONE:Europe/Amsterdam
 X-WR-CALDESC:Automatisch bijgewerkte kalender van Feyenoord Rotterdam.
 BEGIN:VEVENT
 UID:football-data-558219@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20260809T121500
 DTEND;TZID=Europe/Amsterdam:20260809T141500
 SUMMARY:⚽ Sparta Rotterdam – Feyenoord Rotterdam
@@ -17,7 +17,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 1\nStatus:
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558229@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20260816T143000
 DTEND;TZID=Europe/Amsterdam:20260816T163000
 SUMMARY:⚽ Feyenoord Rotterdam – Go Ahead Eagles
@@ -26,7 +26,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 2\nStatus:
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558238@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20260823T164500
 DTEND;TZID=Europe/Amsterdam:20260823T184500
 SUMMARY:⚽ SC Cambuur – Feyenoord Rotterdam
@@ -35,7 +35,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 3\nStatus:
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558247@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20260830T143000
 DTEND;TZID=Europe/Amsterdam:20260830T163000
 SUMMARY:⚽ Feyenoord Rotterdam – ADO Den Haag
@@ -44,7 +44,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 4\nStatus:
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558251@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20260905T163000
 DTEND;TZID=Europe/Amsterdam:20260905T183000
 SUMMARY:⚽ NEC – Feyenoord Rotterdam
@@ -53,7 +53,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 5\nStatus:
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558891@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20260913T164500
 DTEND;TZID=Europe/Amsterdam:20260913T184500
 SUMMARY:⚽ PEC Zwolle – Feyenoord Rotterdam
@@ -62,7 +62,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 6\nStatus:
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558885@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20260920T121500
 DTEND;TZID=Europe/Amsterdam:20260920T141500
 SUMMARY:⚽ Feyenoord Rotterdam – FC Utrecht
@@ -71,7 +71,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 7\nStatus:
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558879@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20261010T184500
 DTEND;TZID=Europe/Amsterdam:20261010T204500
 SUMMARY:⚽ Feyenoord Rotterdam – AZ
@@ -80,7 +80,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 8\nStatus:
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558869@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20261017T200000
 DTEND;TZID=Europe/Amsterdam:20261017T220000
 SUMMARY:⚽ Telstar 1963 – Feyenoord Rotterdam
@@ -89,7 +89,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 9\nStatus:
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558858@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20261025T143000
 DTEND;TZID=Europe/Amsterdam:20261025T163000
 SUMMARY:⚽ PSV – Feyenoord Rotterdam
@@ -98,7 +98,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 10\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558854@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20261031T163000
 DTEND;TZID=Europe/Amsterdam:20261031T183000
 SUMMARY:⚽ Feyenoord Rotterdam – Fortuna Sittard
@@ -107,7 +107,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 11\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558840@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20261108T121500
 DTEND;TZID=Europe/Amsterdam:20261108T141500
 SUMMARY:⚽ SC Heerenveen – Feyenoord Rotterdam
@@ -116,7 +116,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 12\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558831@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:⚽ Feyenoord Rotterdam – SBV Excelsior
@@ -125,7 +125,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 13\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558824@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:⚽ Feyenoord Rotterdam – AFC Ajax
@@ -134,7 +134,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 14\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558816@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:⚽ Willem II Tilburg – Feyenoord Rotterdam
@@ -143,7 +143,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 15\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558803@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:⚽ FC Groningen – Feyenoord Rotterdam
@@ -152,7 +152,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 16\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558797@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:⚽ Feyenoord Rotterdam – FC Twente '65
@@ -161,7 +161,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 17\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558783@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20270110T143000
 DTEND;TZID=Europe/Amsterdam:20270110T163000
 SUMMARY:⚽ Feyenoord Rotterdam – PSV
@@ -170,7 +170,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 18\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558777@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:⚽ SBV Excelsior – Feyenoord Rotterdam
@@ -179,7 +179,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 19\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558772@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:⚽ Feyenoord Rotterdam – PEC Zwolle
@@ -188,7 +188,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 20\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558760@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:⚽ AZ – Feyenoord Rotterdam
@@ -197,7 +197,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 21\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558749@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:⚽ Feyenoord Rotterdam – NEC
@@ -206,7 +206,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 22\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558739@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:⚽ Feyenoord Rotterdam – Telstar 1963
@@ -215,7 +215,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 23\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558734@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:⚽ AFC Ajax – Feyenoord Rotterdam
@@ -224,7 +224,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 24\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558721@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:⚽ Feyenoord Rotterdam – SC Heerenveen
@@ -233,7 +233,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 25\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558714@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:⚽ Go Ahead Eagles – Feyenoord Rotterdam
@@ -242,7 +242,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 26\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558703@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:⚽ Feyenoord Rotterdam – SC Cambuur
@@ -251,7 +251,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 27\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558694@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:⚽ Fortuna Sittard – Feyenoord Rotterdam
@@ -260,7 +260,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 28\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558684@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:⚽ ADO Den Haag – Feyenoord Rotterdam
@@ -269,7 +269,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 29\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558682@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:⚽ Feyenoord Rotterdam – Sparta Rotterdam
@@ -278,7 +278,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 30\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558674@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:⚽ Feyenoord Rotterdam – Willem II Tilburg
@@ -287,7 +287,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 31\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558658@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:⚽ FC Utrecht – Feyenoord Rotterdam
@@ -296,7 +296,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 32\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558650@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20270516T143000
 DTEND;TZID=Europe/Amsterdam:20270516T163000
 SUMMARY:⚽ FC Twente '65 – Feyenoord Rotterdam
@@ -305,7 +305,7 @@ DESCRIPTION:Feyenoord Rotterdam\nBron: football-data.org\nSpeelronde: 33\nStatus
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558644@abe-agenda
-DTSTAMP:20260817T054947Z
+DTSTAMP:20260818T054438Z
 DTSTART;TZID=Europe/Amsterdam:20270523T143000
 DTEND;TZID=Europe/Amsterdam:20270523T163000
 SUMMARY:⚽ Feyenoord Rotterdam – FC Groningen
