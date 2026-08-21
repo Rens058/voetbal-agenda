@@ -34,16 +34,41 @@ teams_data = fetch_json(
 ajax = None
 
 for team in teams_data["teams"]:
-    if team["name"].lower() == "ajax":
+    name = team.get("name", "").lower()
+    short_name = team.get("shortName", "").lower()
+    tla = team.get("tla", "").lower()
+
+    if (
+        "ajax" in name
+        or "ajax" in short_name
+        or tla == "aja"
+    ):
         ajax = team
         break
 
+
 if ajax is None:
+    print("Beschikbare teams:")
+    for team in teams_data["teams"]:
+        print(
+            "-",
+            team.get("name"),
+            "| shortName:",
+            team.get("shortName"),
+            "| tla:",
+            team.get("tla"),
+        )
+
     raise RuntimeError("Ajax niet gevonden.")
+
 
 ajax_id = ajax["id"]
 
-print(f"Ajax gevonden. Team-ID: {ajax_id}")
+print("Ajax gevonden:")
+print(f"- ID: {ajax_id}")
+print(f"- Naam: {ajax.get('name')}")
+print(f"- Short name: {ajax.get('shortName')}")
+print(f"- TLA: {ajax.get('tla')}")
 print()
 
 
@@ -70,15 +95,21 @@ for match in matches:
 
     competitions[name] = code
 
+
 print("Competities gevonden:")
 
-for name in sorted(competitions):
-    code = competitions[name]
-    print(f"- {name} ({code})")
+if not competitions:
+    print("- Geen competities gevonden")
+else:
+    for name in sorted(competitions):
+        code = competitions[name]
+        print(f"- {name} ({code})")
+
 
 print()
 print("Wedstrijden:")
 print()
+
 
 for match in matches:
     competition = match.get("competition", {}).get(
