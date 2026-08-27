@@ -8,7 +8,7 @@ X-WR-TIMEZONE:Europe/Amsterdam
 X-WR-CALDESC:Automatisch bijgewerkte kalender van Fortuna Sittard.
 BEGIN:VEVENT
 UID:football-data-558217@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20260808T200000
 DTEND;TZID=Europe/Amsterdam:20260808T220000
 SUMMARY:⚽ PSV – Fortuna Sittard
@@ -17,7 +17,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 1\nStatus: Ges
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558227@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20260815T210000
 DTEND;TZID=Europe/Amsterdam:20260815T230000
 SUMMARY:⚽ Fortuna Sittard – SC Cambuur
@@ -26,7 +26,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 2\nStatus: Ges
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558232@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20260822T163000
 DTEND;TZID=Europe/Amsterdam:20260822T183000
 SUMMARY:⚽ Fortuna Sittard – AZ
@@ -35,7 +35,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 3\nStatus: Ges
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558241@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20260828T200000
 DTEND;TZID=Europe/Amsterdam:20260828T220000
 SUMMARY:⚽ FC Groningen – Fortuna Sittard
@@ -44,7 +44,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 4\nStatus: Tij
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558258@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20260906T164500
 DTEND;TZID=Europe/Amsterdam:20260906T184500
 SUMMARY:⚽ ADO Den Haag – Fortuna Sittard
@@ -53,7 +53,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 5\nStatus: Tij
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558896@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20260912T200000
 DTEND;TZID=Europe/Amsterdam:20260912T220000
 SUMMARY:⚽ Fortuna Sittard – AFC Ajax
@@ -62,7 +62,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 6\nStatus: Tij
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558886@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20260919T210000
 DTEND;TZID=Europe/Amsterdam:20260919T230000
 SUMMARY:⚽ Willem II Tilburg – Fortuna Sittard
@@ -71,7 +71,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 7\nStatus: Tij
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558877@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20261010T210000
 DTEND;TZID=Europe/Amsterdam:20261010T230000
 SUMMARY:⚽ Fortuna Sittard – FC Twente '65
@@ -80,16 +80,16 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 8\nStatus: Tij
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558870@abe-agenda
-DTSTAMP:20260826T055012Z
-DTSTART;TZID=Europe/Amsterdam:20261017T184500
-DTEND;TZID=Europe/Amsterdam:20261017T204500
+DTSTAMP:20260827T163020Z
+DTSTART;TZID=Europe/Amsterdam:20261018T200000
+DTEND;TZID=Europe/Amsterdam:20261018T220000
 SUMMARY:⚽ NEC – Fortuna Sittard
 LOCATION:
 DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 9\nStatus: Tijdstip vastgesteld
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558859@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20261025T121500
 DTEND;TZID=Europe/Amsterdam:20261025T141500
 SUMMARY:⚽ Fortuna Sittard – SBV Excelsior
@@ -98,7 +98,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 10\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558854@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20261031T163000
 DTEND;TZID=Europe/Amsterdam:20261031T183000
 SUMMARY:⚽ Feyenoord Rotterdam – Fortuna Sittard
@@ -107,7 +107,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 11\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558844@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20261107T163000
 DTEND;TZID=Europe/Amsterdam:20261107T183000
 SUMMARY:⚽ Fortuna Sittard – Telstar 1963
@@ -116,7 +116,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 12\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558829@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:⚽ Go Ahead Eagles – Fortuna Sittard
@@ -125,7 +125,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 13\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558821@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:⚽ Fortuna Sittard – SC Heerenveen
@@ -134,7 +134,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 14\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558813@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:⚽ Fortuna Sittard – PEC Zwolle
@@ -143,7 +143,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 15\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558804@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:⚽ FC Utrecht – Fortuna Sittard
@@ -152,7 +152,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 16\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558793@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:⚽ Fortuna Sittard – Sparta Rotterdam
@@ -161,7 +161,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 17\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558791@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20270108T200000
 DTEND;TZID=Europe/Amsterdam:20270108T220000
 SUMMARY:⚽ FC Twente '65 – Fortuna Sittard
@@ -170,7 +170,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 18\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558779@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:⚽ Fortuna Sittard – PSV
@@ -179,7 +179,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 19\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558770@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:⚽ SBV Excelsior – Fortuna Sittard
@@ -188,7 +188,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 20\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558758@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:⚽ PEC Zwolle – Fortuna Sittard
@@ -197,7 +197,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 21\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558748@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:⚽ Fortuna Sittard – ADO Den Haag
@@ -206,7 +206,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 22\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558741@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:⚽ AZ – Fortuna Sittard
@@ -215,7 +215,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 23\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558736@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:⚽ Fortuna Sittard – FC Utrecht
@@ -224,7 +224,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 24\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558727@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:⚽ Fortuna Sittard – NEC
@@ -233,7 +233,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 25\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558719@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:⚽ SC Heerenveen – Fortuna Sittard
@@ -242,7 +242,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 26\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558706@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:⚽ Telstar 1963 – Fortuna Sittard
@@ -251,7 +251,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 27\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558694@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:⚽ Fortuna Sittard – Feyenoord Rotterdam
@@ -260,7 +260,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 28\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558685@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:⚽ SC Cambuur – Fortuna Sittard
@@ -269,7 +269,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 29\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558681@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:⚽ Fortuna Sittard – FC Groningen
@@ -278,7 +278,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 30\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558671@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:⚽ AFC Ajax – Fortuna Sittard
@@ -287,7 +287,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 31\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558661@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:⚽ Fortuna Sittard – Go Ahead Eagles
@@ -296,7 +296,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 32\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558654@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20270516T143000
 DTEND;TZID=Europe/Amsterdam:20270516T163000
 SUMMARY:⚽ Fortuna Sittard – Willem II Tilburg
@@ -305,7 +305,7 @@ DESCRIPTION:Fortuna Sittard\nBron: football-data.org\nSpeelronde: 33\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558641@abe-agenda
-DTSTAMP:20260826T055012Z
+DTSTAMP:20260827T163020Z
 DTSTART;TZID=Europe/Amsterdam:20270523T143000
 DTEND;TZID=Europe/Amsterdam:20270523T163000
 SUMMARY:⚽ Sparta Rotterdam – Fortuna Sittard
