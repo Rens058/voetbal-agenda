@@ -8,7 +8,7 @@ X-WR-TIMEZONE:Europe/Amsterdam
 X-WR-CALDESC:Automatisch bijgewerkte kalender van Sparta Rotterdam.
 BEGIN:VEVENT
 UID:football-data-558219@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20260809T121500
 DTEND;TZID=Europe/Amsterdam:20260809T141500
 SUMMARY:⚽ Sparta Rotterdam – Feyenoord Rotterdam
@@ -17,7 +17,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 1\nStatus: Ge
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558223@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20260814T200000
 DTEND;TZID=Europe/Amsterdam:20260814T220000
 SUMMARY:⚽ Telstar 1963 – Sparta Rotterdam
@@ -26,7 +26,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 2\nStatus: Ge
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558234@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20260822T184500
 DTEND;TZID=Europe/Amsterdam:20260822T204500
 SUMMARY:⚽ Sparta Rotterdam – FC Utrecht
@@ -35,7 +35,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 3\nStatus: Ge
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558242@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20260829T163000
 DTEND;TZID=Europe/Amsterdam:20260829T183000
 SUMMARY:⚽ SBV Excelsior – Sparta Rotterdam
@@ -44,7 +44,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 4\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558250@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20260904T200000
 DTEND;TZID=Europe/Amsterdam:20260904T220000
 SUMMARY:⚽ Sparta Rotterdam – PEC Zwolle
@@ -53,7 +53,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 5\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558893@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20260913T143000
 DTEND;TZID=Europe/Amsterdam:20260913T163000
 SUMMARY:⚽ PSV – Sparta Rotterdam
@@ -62,7 +62,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 6\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558890@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20260919T184500
 DTEND;TZID=Europe/Amsterdam:20260919T204500
 SUMMARY:⚽ Sparta Rotterdam – SC Heerenveen
@@ -71,7 +71,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 7\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558880@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20261010T184500
 DTEND;TZID=Europe/Amsterdam:20261010T204500
 SUMMARY:⚽ Go Ahead Eagles – Sparta Rotterdam
@@ -80,7 +80,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 8\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558868@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20261017T210000
 DTEND;TZID=Europe/Amsterdam:20261017T230000
 SUMMARY:⚽ Sparta Rotterdam – Willem II Tilburg
@@ -89,7 +89,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 9\nStatus: Ti
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558856@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20261025T164500
 DTEND;TZID=Europe/Amsterdam:20261025T184500
 SUMMARY:⚽ Sparta Rotterdam – AFC Ajax
@@ -98,7 +98,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 10\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558846@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20261101T164500
 DTEND;TZID=Europe/Amsterdam:20261101T184500
 SUMMARY:⚽ FC Groningen – Sparta Rotterdam
@@ -107,7 +107,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 11\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558841@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20261107T184500
 DTEND;TZID=Europe/Amsterdam:20261107T204500
 SUMMARY:⚽ ADO Den Haag – Sparta Rotterdam
@@ -116,7 +116,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 12\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558830@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:⚽ Sparta Rotterdam – AZ
@@ -125,7 +125,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 13\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558819@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:⚽ SC Cambuur – Sparta Rotterdam
@@ -134,7 +134,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 14\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558817@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:⚽ Sparta Rotterdam – NEC
@@ -143,7 +143,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 15\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558808@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
 SUMMARY:⚽ FC Twente '65 – Sparta Rotterdam
@@ -152,7 +152,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 16\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558793@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
 SUMMARY:⚽ Fortuna Sittard – Sparta Rotterdam
@@ -161,7 +161,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 17\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558787@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20270109T163000
 DTEND;TZID=Europe/Amsterdam:20270109T183000
 SUMMARY:⚽ Sparta Rotterdam – SBV Excelsior
@@ -170,7 +170,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 18\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558778@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
 SUMMARY:⚽ SC Heerenveen – Sparta Rotterdam
@@ -179,7 +179,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 19\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558771@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:⚽ Sparta Rotterdam – FC Groningen
@@ -188,7 +188,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 20\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558762@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
 SUMMARY:⚽ Sparta Rotterdam – Telstar 1963
@@ -197,7 +197,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 21\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558755@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:⚽ Willem II Tilburg – Sparta Rotterdam
@@ -206,7 +206,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 22\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558738@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
 SUMMARY:⚽ NEC – Sparta Rotterdam
@@ -215,7 +215,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 23\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558729@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
 SUMMARY:⚽ Sparta Rotterdam – PSV
@@ -224,7 +224,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 24\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558728@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:⚽ Sparta Rotterdam – SC Cambuur
@@ -233,7 +233,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 25\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558716@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:⚽ AZ – Sparta Rotterdam
@@ -242,7 +242,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 26\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558702@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270320
 DTEND;VALUE=DATE:20270321
 SUMMARY:⚽ FC Utrecht – Sparta Rotterdam
@@ -251,7 +251,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 27\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558699@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270403
 DTEND;VALUE=DATE:20270404
 SUMMARY:⚽ Sparta Rotterdam – ADO Den Haag
@@ -260,7 +260,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 28\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558692@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270410
 DTEND;VALUE=DATE:20270411
 SUMMARY:⚽ Sparta Rotterdam – Go Ahead Eagles
@@ -269,7 +269,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 29\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558682@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:⚽ Feyenoord Rotterdam – Sparta Rotterdam
@@ -278,7 +278,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 30\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558668@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270501
 DTEND;VALUE=DATE:20270502
 SUMMARY:⚽ Sparta Rotterdam – FC Twente '65
@@ -287,7 +287,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 31\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558660@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;VALUE=DATE:20270508
 DTEND;VALUE=DATE:20270509
 SUMMARY:⚽ PEC Zwolle – Sparta Rotterdam
@@ -296,7 +296,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 32\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558651@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20270516T143000
 DTEND;TZID=Europe/Amsterdam:20270516T163000
 SUMMARY:⚽ AFC Ajax – Sparta Rotterdam
@@ -305,7 +305,7 @@ DESCRIPTION:Sparta Rotterdam\nBron: football-data.org\nSpeelronde: 33\nStatus: T
 END:VEVENT
 BEGIN:VEVENT
 UID:football-data-558641@abe-agenda
-DTSTAMP:20260828T172620Z
+DTSTAMP:20260829T113949Z
 DTSTART;TZID=Europe/Amsterdam:20270523T143000
 DTEND;TZID=Europe/Amsterdam:20270523T163000
 SUMMARY:⚽ Sparta Rotterdam – Fortuna Sittard
